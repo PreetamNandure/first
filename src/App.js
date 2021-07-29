@@ -18,6 +18,7 @@ return(
     <Link to="/"><Button color="secondary" variant="contained">Dashboard</Button></Link>
     <Link to="/create"><Button color="secondary" variant="contained">Create Product</Button></Link>
     <Link to="/list"><Button color="secondary" variant="contained">Product List</Button></Link>
+    <Link to="/list"><Button color="secondary" variant="contained">Product Menugit</Button></Link>
     <Link to="/list"><Button color="secondary" variant="contained">Product Menu</Button></Link>
     </menu>
     
