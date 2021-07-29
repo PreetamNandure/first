@@ -5,7 +5,7 @@ import { Link, BrowserRouter as Router ,Route} from 'react-router-dom'
 import ProductCreate from './Ecom/ProductCreate'
 import ProductList from './Ecom/ProductList'
 import Dashboard from './Ecom/Dashboard'
-import { AppBar, Button } from '@material-ui/core'
+import { Button } from '@material-ui/core'
 
 function App(){
 
@@ -16,7 +16,7 @@ return(
     <Router>
     
     <menu>
-    <Link to="/"><Button color="secondary" variant="contained">Dashboard</Button></Link>
+    <Link to="/"><Button color="secondary" variant="contained">Dashboard</Button></Link> {/button added/}
     <Link to="/create"><Button color="secondary" variant="contained">Create Product</Button></Link>
     <Link to="/list"><Button color="secondary" variant="contained">Product List</Button></Link>
     <Link to="/list"><Button color="secondary" variant="contained">Product Menugit</Button></Link>
